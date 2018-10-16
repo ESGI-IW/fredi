@@ -6,7 +6,7 @@
 
 [bug fix](https://github.com/ESGI-IW/fredi/issues/new?template=bugfix.md)
 
-#feature
+# feature
 
 [feature request](https://github.com/ESGI-IW/fredi/issues/new?template=feature.md)
 
