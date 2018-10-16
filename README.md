@@ -8,6 +8,6 @@
 
 #feature
 
-[feature request](https://github.com/ESGI-IW/fredi/issues/new?template=feature.md
+[feature request](https://github.com/ESGI-IW/fredi/issues/new?template=feature.md)
 
-thank you)
+thank you
