@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2075dacd588bc4284db6528682573c79",
+    "content-hash": "9b83e053ae8b7dd30a21cb48f11602ee",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2647,23 +2647,77 @@
             "time": "2016-07-30T09:10:53+00:00"
         },
         {
-            "name": "twig/twig",
-            "version": "v2.5.0",
+            "name": "twig/extensions",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323"
+                "url": "https://github.com/twigphp/Twig-extensions.git",
+                "reference": "2c1a86526d0044065220d1b51ac08348bea5ca82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6a5f676b77a90823c2d4eaf76137b771adf31323",
-                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/2c1a86526d0044065220d1b51ac08348bea5ca82",
+                "reference": "2c1a86526d0044065220d1b51ac08348bea5ca82",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
-                "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-mbstring": "~1.0"
+                "twig/twig": "^1.27|^2.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.4",
+                "symfony/translation": "^2.7|^3.4"
+            },
+            "suggest": {
+                "symfony/translation": "Allow the time_diff output to be translated"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_Extensions_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\Extensions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Common additional features for Twig that do not directly belong in core",
+            "keywords": [
+                "i18n",
+                "text"
+            ],
+            "time": "2018-05-22T13:26:07+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.35.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "psr/container": "^1.0",
@@ -2673,7 +2727,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "1.35-dev"
                 }
             },
             "autoload": {
@@ -2711,7 +2765,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-07-13T07:18:09+00:00"
+            "time": "2018-07-13T07:12:17+00:00"
         }
     ],
     "packages-dev": [

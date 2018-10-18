@@ -30,7 +30,7 @@ env:
   - SYMFONY_VERSION="3.0.*" DB=mysql
 
 # Update composer
-before-install:
+before_install:
   - composer self-update
 
 # Install composer dependencies,

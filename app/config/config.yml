@@ -74,6 +74,9 @@ fos_user:
     user_class: fredi\AppBundle\Entity\User
     group:
         group_class: fredi\AppBundle\Entity\Groups
+    from_email:
+        address: "kosseyla.hamouche@gmail.com"
+        sender_name: "No Reply"
 
 # https://github.com/KnpLabs/KnpSnappyBundle
 knp_snappy:

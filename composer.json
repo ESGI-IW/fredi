@@ -31,12 +31,13 @@
         "stof/doctrine-extensions-bundle": "^1.2",
         "knplabs/knp-snappy-bundle": "dev-master",
         "h4cc/wkhtmltoimage-amd64": "0.12.2.1",
-        "h4cc/wkhtmltopdf-amd64": "0.12.2.1"
+        "h4cc/wkhtmltopdf-amd64": "0.12.2.1",
+        "twig/twig": "^1.0",
+        "twig/extensions": "^1.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
         "symfony/phpunit-bridge": "^3.0",
-        "doctrine/doctrine-fixtures-bundle": "^2.3"
     },
     "scripts": {
         "post-install-cmd": [
@@ -55,11 +56,6 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
         ]
-    },
-    "config": {
-        "platform": {
-            "php": "5.5.9"
-        }
     },
     "extra": {
         "symfony-app-dir": "app",
